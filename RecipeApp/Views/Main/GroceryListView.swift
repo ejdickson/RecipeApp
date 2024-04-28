@@ -9,7 +9,10 @@ import SwiftUI
 
 struct GroceryListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            Text("This feature coming soon!")
+                .navigationTitle("Grocery List")
+        }
     }
 }
 

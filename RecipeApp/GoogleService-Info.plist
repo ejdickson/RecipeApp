@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCxPZOQV3TGD9R6v8zqylaypoevtHJ4Rkc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>896439429336</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.auburn.ejd0052.RecipeApp</string>
+	<key>PROJECT_ID</key>
+	<string>recipeapp-96188</string>
+	<key>STORAGE_BUCKET</key>
+	<string>recipeapp-96188.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:896439429336:ios:a04e0aa00a17bd10288fad</string>
+</dict>
+</plist>
