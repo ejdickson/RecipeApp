@@ -23,6 +23,8 @@
 		D7C423462BDDD9DB00789860 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C423452BDDD9DB00789860 /* RecipeViewModel.swift */; };
 		D7C423482BDDDD1200789860 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7C423472BDDDD1200789860 /* GoogleService-Info.plist */; };
 		D7C4234A2BDDDE5900789860 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C423492BDDDE5900789860 /* RecipeDetailView.swift */; };
+		D7C4234C2BDEB9E200789860 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4234B2BDEB9E200789860 /* RecipeCard.swift */; };
+		D7C4234E2BDEBFFC00789860 /* RecipeCardGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4234D2BDEBFFC00789860 /* RecipeCardGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		D7C423452BDDD9DB00789860 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		D7C423472BDDDD1200789860 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D7C423492BDDDE5900789860 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		D7C4234B2BDEB9E200789860 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		D7C4234D2BDEBFFC00789860 /* RecipeCardGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,8 @@
 		D7C423372BDDCB8800789860 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				D7C4234B2BDEB9E200789860 /* RecipeCard.swift */,
+				D7C4234D2BDEBFFC00789860 /* RecipeCardGrid.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -232,9 +238,11 @@
 				D7C4233B2BDDCFDC00789860 /* GroceryListView.swift in Sources */,
 				D7C423312BDDCB3000789860 /* NewRecipeView.swift in Sources */,
 				D7C423332BDDCB4600789860 /* FavoritesView.swift in Sources */,
+				D7C4234C2BDEB9E200789860 /* RecipeCard.swift in Sources */,
 				D7C4232F2BDDCB1700789860 /* HomeView.swift in Sources */,
 				D7C423392BDDCDDF00789860 /* MenuBar.swift in Sources */,
 				D7C4234A2BDDDE5900789860 /* RecipeDetailView.swift in Sources */,
+				D7C4234E2BDEBFFC00789860 /* RecipeCardGrid.swift in Sources */,
 				D7C4232B2BDDCAF700789860 /* CategoriesView.swift in Sources */,
 				D7C423462BDDD9DB00789860 /* RecipeViewModel.swift in Sources */,
 				D7C4233D2BDDD27600789860 /* RecipeModel.swift in Sources */,

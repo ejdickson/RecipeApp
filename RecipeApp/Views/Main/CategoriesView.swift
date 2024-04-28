@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct CategoriesView: View {
+    var recipes: [RecipeModel]
+    
     var body: some View {
         NavigationView {
-            Text("Categories")
+            List {
+                ForEach(Category.allCases) { category in
+                    NavigationLink {
+                        ScrollView {
+                            RecipeCardGrid(recipes: recipes)
+                        }
+                        .navigationTitle(category.rawValue + "s")
+                    } label: {
+                        Text(category.rawValue + "s")
+                    }
+                }
+            }
                 .navigationTitle("Categories")
         }
     }
 }
 
 #Preview {
-    CategoriesView()
+    CategoriesView(recipes: [])
 }

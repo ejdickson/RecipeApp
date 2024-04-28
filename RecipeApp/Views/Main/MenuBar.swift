@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct MenuBar: View {
+    @StateObject var recipeApp = RecipeViewModel()
+    
     var body: some View {
         TabView {
             HomeView()
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            CategoriesView()
+            CategoriesView(recipes: recipeApp.recipes)
                 .tabItem {
                     Label("Categories", systemImage: "square.fill.text.grid.1x2")
                 }

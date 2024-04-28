@@ -9,23 +9,20 @@ import SwiftUI
 
 struct HomeView: View {
     
-    @ObservedObject var recipeApp = RecipeViewModel()
+    @StateObject var recipeApp = RecipeViewModel()
     
     var body: some View {
         NavigationStack {
-            List {
-                ForEach(recipeApp.recipes) { recipe in
-                    NavigationLink {
-                        RecipeDetailView()
-                    } label: {
-                        Text(recipe.name)
-                    }
-                }
+            ScrollView {
+                RecipeCardGrid(recipes: recipeApp.recipes)
             }
+            
+            .navigationTitle("My Recipes")
             .onAppear {
                 recipeApp.fetchData()
             }
         }
+
     }
 }
 
