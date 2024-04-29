@@ -25,6 +25,7 @@
 		D7C4234A2BDDDE5900789860 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C423492BDDDE5900789860 /* RecipeDetailView.swift */; };
 		D7C4234C2BDEB9E200789860 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4234B2BDEB9E200789860 /* RecipeCard.swift */; };
 		D7C4234E2BDEBFFC00789860 /* RecipeCardGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C4234D2BDEBFFC00789860 /* RecipeCardGrid.swift */; };
+		D7C423522BDEF2BC00789860 /* AddNewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C423512BDEF2BC00789860 /* AddNewRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		D7C423492BDDDE5900789860 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		D7C4234B2BDEB9E200789860 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 		D7C4234D2BDEBFFC00789860 /* RecipeCardGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardGrid.swift; sourceTree = "<group>"; };
+		D7C423512BDEF2BC00789860 /* AddNewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				D7C423492BDDDE5900789860 /* RecipeDetailView.swift */,
+				D7C423512BDEF2BC00789860 /* AddNewRecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				D7C4233B2BDDCFDC00789860 /* GroceryListView.swift in Sources */,
 				D7C423312BDDCB3000789860 /* NewRecipeView.swift in Sources */,
 				D7C423332BDDCB4600789860 /* FavoritesView.swift in Sources */,
+				D7C423522BDEF2BC00789860 /* AddNewRecipeView.swift in Sources */,
 				D7C4234C2BDEB9E200789860 /* RecipeCard.swift in Sources */,
 				D7C4232F2BDDCB1700789860 /* HomeView.swift in Sources */,
 				D7C423392BDDCDDF00789860 /* MenuBar.swift in Sources */,

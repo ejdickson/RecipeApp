@@ -20,7 +20,7 @@ struct MenuBar: View {
                 .tabItem {
                     Label("Categories", systemImage: "square.fill.text.grid.1x2")
                 }
-            NewRecipeView()
+            AddNewRecipeView(name: "", description: "", ingredients: [], directions: [])
                 .tabItem {
                     Label("New Recipe", systemImage: "plus")
                 }

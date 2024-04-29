@@ -30,4 +30,22 @@ class RecipeViewModel : ObservableObject {
                     }
                 }}
     }
+    
+    func saveData(newRecipe: RecipeModel) {
+        var ref: DocumentReference? = nil
+        ref = db.collection("recipes").addDocument(data: [
+            "name": newRecipe.name,
+            "image": newRecipe.image,
+            "description": newRecipe.description,
+            "ingredients": newRecipe.ingredients,
+            "directions": newRecipe.directions,
+            "category": newRecipe.category
+        ]) { err in
+            if let err = err {
+                print("Error adding document: \(err)")
+            } else {
+                print("Document added with ID: \(ref!.documentID)")
+            }
+        }
+    }
 }
